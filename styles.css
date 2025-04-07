@@ -11,7 +11,7 @@ body, html {
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(img.html/rizal.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(rizal.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -20,16 +20,16 @@ body, html {
 .navbar {
     width: 100%; /* Full width for consistency */
     height: 75px; /* Fixed height for uniformity */
-    background-color: rgba(0, 0, 0, 0.8); /* Optional: Add a background color */
+    background-color: rgba(0, 0, 0, 0.8);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px; /* Add padding for spacing */
-    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .icon {
-    height: 100%; /* Match the height of the navbar */
+    height: 100%; 
     display: flex;
     align-items: center;
 }
@@ -54,7 +54,7 @@ ul {
 }
 
 ul li {
-    margin-left: 40px; /* Adjust spacing between menu items */
+    margin-left: 40px;
 }
 
 ul li a {
